@@ -1,0 +1,30 @@
+
+
+{
+    "user":[
+        {
+            "id":1,
+            "cart":[
+                
+            ]
+        }
+    ],
+
+    "product":[
+        
+            {"id":1,"name":"Iphone","price":160000},
+            {"id":2,"name":"tshirt","price":1200},
+            {"id":3,"name":"smartwatch","price":2000},
+            {"id":4,"name":"animetshirt","price":500},
+            {"id":5,"name":"guiter","price":5000},
+            {"id":6,"name":"cricket","price":2300},
+            {"id":7,"name":"light","price":1000},
+            {"id":8,"name":"lamp","price":1500}
+        
+          
+    ]
+}
+
+
+
+   

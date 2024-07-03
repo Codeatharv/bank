@@ -1,0 +1,191 @@
+
+<div class="container-fluid bg-dark py-5">
+    <nav
+    class="navbar navbar-expand-xl navbar-light bg-light"
+  >
+    <div class="container ">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page"
+              >Home
+              <span class="visually-hidden">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdownId"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dropdown</a
+            >
+            <div
+              class="dropdown-menu"
+              aria-labelledby="dropdownId"
+            >
+              <a class="dropdown-item" href="#"
+                >Action 1</a
+              >
+              <a class="dropdown-item" href="#"
+                >Action 2</a
+              >
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex my-2 my-lg-0">
+          <input
+            class="form-control me-sm-2"
+            type="text"
+            placeholder="Search"
+          />
+          <button
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+          > Search
+          </button>
+      <mat-icon routerLink="/addcart">shopping_cart</mat-icon> 
+      
+      <span
+        class="badge bg-primary mx-3" routerLink="addcart" 
+        > {{count}}</span
+      >
+      
+         
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="container my-5">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top " height="300" width="100" src="https://th.bing.com/th/id/OIP.n1UdAuk1vqwRBHk5BX7E0gAAAA?rs=1&pid=ImgDetMain"  alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Iphone</h4>
+            <p class="card-text">Price: 100000</p>
+          <div  class="text-center"><button   (click)="counter(1)"  class="btn btn-dark "> Buy</button></div> 
+  
+          </div>
+        </div>
+        
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" width="100" src="https://th.bing.com/th/id/OIP.5dBxpYiQ9UmEDHvpP7orkwHaHa?rs=1&pid=ImgDetMain"  alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">tshirt</h4>
+            <p class="card-text">Price: 500</p>
+            <div  class="text-center"><button    (click)="counter(2)" class="btn btn-primary "> Buy</button></div> 
+  
+          </div>
+        </div>
+        
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" width="100"  src="https://th.bing.com/th/id/R.ae20930a1209c50267d828295b710570?rik=p%2bby%2bbxQ%2f2EXUg&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f13%2fSmartwatch-PNG-Image.png&ehk=i8LCKtoxoPEqO4YOhrkYbGI7VuLFPHDkkoMRlpf%2fCiQ%3d&risl=&pid=ImgRaw&r=0" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">smartwatch</h4>
+            <p class="card-text">Price: 3000</p>
+            <div  class="text-center"><button    (click)="counter(3)" class="btn btn-primary "> Buy</button></div> 
+  
+          </div>
+        </div>
+        
+      </div>
+  
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" width="100" src="https://th.bing.com/th/id/OIP.xSweIIHNVPrPGh9_HxYiLQHaHa?rs=1&pid=ImgDetMain" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Anime tshirt</h4>
+            <p class="card-text">Price: 700</p>
+            <div  class="text-center"><button    (click)="counter(4)" class="btn btn-primary "> Buy</button></div> 
+  
+          </div>
+        </div>
+  
+    
+      </div>
+    </div>
+  </div>
+  
+  <div class="container my-5">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top "  height="300" width="100" src="https://purepng.com/public/uploads/large/purepng.com-electric-guitarelectric-guitarsteelstringselectricalblackredyellow-1421526494112bsvat.png" height="300" width="100" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Electronic Guitar</h4>
+            <p class="card-text">Price: 10000</p>
+            <div  class="text-center"><button    (click)="counter(5)" class="btn btn-primary "> Buy</button></div> 
+  
+          </div>
+        </div>
+        
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" width="100" src="https://th.bing.com/th/id/OIP.d8O6_G36lpWGOUCwa0Gf8QHaHa?rs=1&pid=ImgDetMain" height="300" width="100" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Cricket kit</h4>
+            <p class="card-text">Price: 5000</p>
+            <div  class="text-center"><button   (click)="counter(6)" class="btn btn-primary "> Buy</button></div> 
+    
+  
+          </div>
+        </div>
+        
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" width="100" src="https://www.shopaccino.com/images/decor-banner.png" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Celing light</h4>
+            <p class="card-text">Price: 2000</p>
+          <div  class="text-center"><button    (click)="counter(7)" class="btn btn-primary "> Buy</button></div> 
+           
+  
+          </div>
+        </div>
+        
+      </div>
+  
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" height="300" widht="400" src="https://e7.pngegg.com/pngimages/760/943/png-clipart-torchere-table-light-fixture-living-room-table-light-fixture-furniture.png" height="300" width="100" alt="Title" />
+          <div class="card-body">
+            <h4 class="card-title">Floor lamp</h4>
+            <p class="card-text">Price: 1050</p>
+          <div  class="text-center"><button   (click)="counter(8)" class="btn btn-primary "> Buy</button></div> 
+            
+  
+          </div>
+        </div>
+  
+    
+      </div>
+    </div>
+  </div>
+  </div>
+  

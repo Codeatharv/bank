@@ -1,0 +1,41 @@
+<div class="container-sm-fluid">
+  <form action="">
+    <div class="row">
+      <div class="col-md">
+        <input type="text" name="username" class="form-control" id="username" [(ngModel)]="user.username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        
+        <input type="text" name="password" class="form-control" id="password" [(ngModel)]="user.password">
+      </div>
+    </div>
+    <button class="btn btn-primary" (click)="add()">HEllO</button>
+  </form>
+</div>
+
+<div
+  class="table-responsive"
+>
+  <table
+    class="table table-primary"
+  >
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Password</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <td >{{u.username}}</td>
+        <td>{{u.password}}</td>
+        <td><button type="button" class="btn btn-danger" (click)="deleteuser()">Deleteuser</button>
+          <button type="button" class="btn btn-danger" (click)="updateuser()">Deleteuser</button></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>

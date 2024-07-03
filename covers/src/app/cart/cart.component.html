@@ -1,0 +1,29 @@
+<app-navbar [cart]="cart" >
+
+</app-navbar>
+<div
+    class="table-responsive"
+>
+    <table
+        class="table table-rounded"
+    >
+        <thead>
+            <tr>
+                <th scope="col">sr no</th>
+                <th scope="col">name</th>
+                <th scope="col">price</th>
+                <th scope="col">action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of cart">
+                <td>{{c.id}}</td>
+                <td>{{c.name}}</td>
+                <td>{{c.price}}</td>
+                <td>
+                    <button class="btn btn-primary"(click)="delete(c)">delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
